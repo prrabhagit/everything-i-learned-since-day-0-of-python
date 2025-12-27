@@ -3,19 +3,27 @@
 
 
 #variables and data types
+
 #sample code for string data type
+
 name ="prabha"
 print("name")
 #output = prabha
 
 #combining strings
+
 name="sister"
 print("hello"+name)
 output="hello sister"
+
 #check data type 
+
 name="prab"
 print(type(name))
+
  output=<class'str'>
+
+ 
  
 
 
