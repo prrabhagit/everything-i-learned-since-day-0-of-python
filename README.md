@@ -51,8 +51,10 @@ print (height)
    output= 250.5
 
   #if we have to typecast it,
+  
   height = 250.5 
   print("height is:" str(height)+ "cm")
+  output= 250.5cm
 
    
 
