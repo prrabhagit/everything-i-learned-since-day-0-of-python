@@ -55,6 +55,17 @@ print (height)
   height = 250.5 
   print("height is:" str(height)+ "cm")
   output= 250.5cm
+  
+  # boolean value 
+  #either TRUE or FALSE
+  human = false
+  print(human)
+  output= FALSE
+
+  #typecast it
+  human = true
+  print("are you human?" str(human))
+
 
    
 
