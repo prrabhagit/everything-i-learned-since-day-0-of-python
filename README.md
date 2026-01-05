@@ -187,7 +187,128 @@ print(a, b, c)
 ---
 
 
-   
+
+
+
+
+# Lists in Python
+
+## What is a List?
+
+A **list** is used to store multiple values in one variable.
+
+```python
+items = [10, 20, 30]
+```
+
+Lists are:
+
+* ordered
+* changeable
+* allow duplicates
+
+---
+
+## Accessing Elements
+
+```python
+items[0]
+items[-1]
+```
+
+---
+
+## Changing Values
+
+```python
+items[1] = 50
+```
+
+---
+
+## Adding Elements
+
+```python
+items.append(40)
+items.insert(1, 99)
+```
+
+---
+
+## Removing Elements
+
+```python
+items.remove(20)
+items.pop()
+items.pop(0)
+```
+
+---
+
+## List Length
+
+```python
+len(items)
+```
+
+---
+
+## Looping Through a List
+
+```python
+for item in items:
+    print(item)
+```
+
+With index:
+
+```python
+for i in range(len(items)):
+    print(i, items[i])
+```
+
+---
+
+## Slicing
+
+```python
+items[1:3]
+items[:2]
+items[2:]
+```
+
+---
+
+## Checking Membership
+
+```python
+if 30 in items:
+    print("Found")
+```
+
+---
+
+## Practice Example
+
+```python
+numbers = []
+
+for i in range(5):
+    numbers.append(int(input("Enter number: ")))
+
+print(numbers)
+print(max(numbers))
+print(sum(numbers) / len(numbers))
+```
+
+---
+
+## File Name
+
+```
+lists.py
+```
+
 
  
  
