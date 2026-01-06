@@ -267,7 +267,11 @@ for i in range(len(items)):
     print(i, items[i])
 ```
 
+
+Here’s a **clean, short, GitHub-repo style** explanation of **Loops in Python**.
+
 ---
+
 
 ## Slicing
 
@@ -312,6 +316,121 @@ lists.py
 
  
  
- 
+
+# Loops in Python
+
+## What is a Loop?
+
+A **loop** is used to repeat a block of code multiple times.
+
+---
+
+## `for` Loop
+
+Used to iterate over a sequence.
+
+```python
+for i in range(5):
+    print(i)
+```
+
+---
+
+## Looping Through a List
+
+```python
+numbers = [10, 20, 30]
+
+for n in numbers:
+    print(n)
+```
+
+---
+
+## `range()` Function
+
+```python
+range(5)        # 0 to 4
+range(1, 6)     # 1 to 5
+range(1, 10, 2) # step of 2
+```
+
+---
+
+## `while` Loop
+
+Runs while a condition is true.
+
+```python
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+```
+
+---
+
+## `break`
+
+Stops the loop.
+
+```python
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+```
+
+---
+
+## `continue`
+
+Skips current iteration.
+
+```python
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+```
+
+---
+
+## Nested Loops
+
+```python
+for i in range(3):
+    for j in range(2):
+        print(i, j)
+```
+
+---
+
+## Common Mistake
+
+Infinite loop:
+
+```python
+while True:
+    print("Loop")
+```
+
+---
+
+## Practice
+
+```python
+numbers = []
+
+for i in range(5):
+    numbers.append(int(input("Enter number: ")))
+
+for n in numbers:
+    if n % 2 == 0:
+        print(n)
+```
+
+---
+
 
 
