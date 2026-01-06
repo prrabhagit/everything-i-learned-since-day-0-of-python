@@ -191,11 +191,12 @@ print(a, b, c)
 
 
 
+
 # Lists in Python
 
 ## What is a List?
 
-A **list** is used to store multiple values in one variable.
+A **list** stores multiple values in a single variable.
 
 ```python
 items = [10, 20, 30]
@@ -204,7 +205,7 @@ items = [10, 20, 30]
 Lists are:
 
 * ordered
-* changeable
+* mutable (can change)
 * allow duplicates
 
 ---
@@ -218,7 +219,7 @@ items[-1]
 
 ---
 
-## Changing Values
+## Modifying Elements
 
 ```python
 items[1] = 50
@@ -267,11 +268,7 @@ for i in range(len(items)):
     print(i, items[i])
 ```
 
-
-Here’s a **clean, short, GitHub-repo style** explanation of **Loops in Python**.
-
 ---
-
 
 ## Slicing
 
@@ -313,8 +310,6 @@ print(sum(numbers) / len(numbers))
 lists.py
 ```
 
-
- 
  
 
 # Loops in Python
