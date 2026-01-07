@@ -1,0 +1,111 @@
+### Conditional Statements in Python (Repo-ready, short)
+
+Conditional statements let your program **make decisions**.
+
+---
+
+##️⃣ 1>> `if`
+
+Executes code **only if** the condition is true.
+
+```python
+x = 10
+
+if x > 0:
+    print("Positive number")
+```
+
+---
+
+##️ 2>> `if – else`
+
+Two paths: true or false.
+
+```python
+x = -5
+
+if x >= 0:
+    print("Non-negative")
+else:
+    print("Negative")
+```
+
+---
+
+##️ 3>> `if – elif – else`
+
+Multiple conditions.
+
+```python
+marks = 78
+
+if marks >= 90:
+    print("A")
+elif marks >= 75:
+    print("B")
+else:
+    print("C")
+```
+
+---
+
+#️# 4>> Comparison Operators
+
+Used inside conditions.
+
+```python
+==   !=   >   <   >=   <=
+```
+
+Example:
+
+```python
+a = 5
+b = 10
+
+if a != b:
+    print("Not equal")
+```
+
+---
+
+#️# 5>> Logical Operators
+
+Combine conditions.
+
+```python
+and   or   not
+```
+
+```python
+age = 20
+
+if age > 18 and age < 25:
+    print("Young adult")
+```
+
+---
+
+##️ 6>> Nested `if`
+
+Condition inside another condition.
+
+```python
+x = 15
+
+if x > 0:
+    if x % 5 == 0:
+        print("Positive and divisible by 5")
+```
+
+---
+
+#️# 7>> Short Hand (Ternary)
+
+One-line condition.
+
+```python
+result = "Pass" if marks >= 40 else "Fail"
+```
+
+---
