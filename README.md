@@ -363,7 +363,7 @@ while i < 5:
     i += 1
 ```
 
----
+
 
 ## `break`
 
@@ -428,4 +428,150 @@ for n in numbers:
 ---
 
 
+
+## FUNCTIONS IN PYTHON
+
+### What is a Function?
+
+A **function** is a reusable block of code that performs a specific task.
+
+```python
+def greet():
+    print("Hello, Python!")
+```
+
+---
+
+### Calling a Function
+
+```python
+greet()
+```
+
+---
+
+### Why Use Functions?
+
+* Reuse code
+* Reduce repetition
+* Improve readability
+* Easier debugging and testing
+* Foundation for OOP, DSA, Django, and backend development
+
+---
+
+## Syntax
+
+```python
+def function_name(parameters):
+    # code
+    return value
+```
+
+---
+
+## Parameters and Arguments
+
+```python
+def add(a, b):      # parameters
+    return a + b
+
+add(3, 5)          # arguments
+```
+
+---
+
+## Return Statement
+
+```python
+def square(n):
+    return n * n
+```
+
+---
+
+## Default Parameters
+
+```python
+def greet(name="Guest"):
+    print(f"Hello {name}")
+```
+
+---
+
+## Keyword Arguments
+
+```python
+def intro(name, age):
+    print(name, age)
+
+intro(age=17, name="Prabha")
+```
+
+---
+
+## *args (Variable-Length Arguments)
+
+```python
+def total(*nums):
+    return sum(nums)
+
+print(total(1, 2, 3, 4))
+```
+
+---
+
+## **kwargs (Keyword Variable-Length Arguments)
+
+```python
+def profile(**data):
+    print(data)
+
+profile(name="Prabha", course="Engineering")
+```
+
+---
+
+## Scope (Local vs Global)
+
+```python
+x = 10
+
+def test():
+    x = 5
+    print(x)
+
+test()
+print(x)
+```
+
+---
+
+## Docstrings
+
+```python
+def multiply(a, b):
+    """Returns the product of two numbers"""
+    return a * b
+```
+
+---
+
+## Lambda Functions
+
+```python
+square = lambda x: x * x
+print(square(4))
+```
+
+---
+
+## Practice Tasks
+
+* Function to check even or odd
+* Function to find the maximum of three numbers
+* Function to count vowels in a string
+* Function to calculate BMI
+
+---
 
