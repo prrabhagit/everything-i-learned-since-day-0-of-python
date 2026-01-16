@@ -575,3 +575,74 @@ print(square(4))
 
 ---
 
+### **List Comprehension in Python 
+
+**List comprehension** is a compact way to create lists using a single line of code instead of loops.
+
+---
+
+## Basic Syntax
+
+```python
+[expression for item in iterable]
+```
+
+---
+
+## Simple Example
+
+```python
+squares = [x*x for x in range(5)]
+```
+
+Creates:
+
+```
+[0, 1, 4, 9, 16]
+```
+
+---
+
+## With Condition
+
+```python
+evens = [x for x in range(10) if x % 2 == 0]
+```
+
+---
+
+## With `if–else`
+
+```python
+labels = ["even" if x % 2 == 0 else "odd" for x in range(5)]
+```
+
+---
+
+## Nested List Comprehension
+
+```python
+matrix = [[i*j for j in range(3)] for i in range(3)]
+```
+
+---
+
+## Why Use It
+
+* Cleaner than loops
+* Faster execution
+* Common in AI/ML data preprocessing
+
+---
+
+## Avoid When
+
+* Logic becomes hard to read
+* Multiple nested conditions
+
+---
+
+## One-Line Summary
+
+> List comprehension = **loop + condition + list creation in one line**
+
